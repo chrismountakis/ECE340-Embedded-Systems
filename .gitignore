@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+._*
+
+# Vivado / Vitis generated output
+*.cache/
+*.gen/
+!Lab2_Arm/*/*.gen/
+*.runs/
+*.hw/
+*.ip_user_files/
+*.tmp/
+*.sim/
+.Xil/
+.ipcache/
+.analytics
+*.xsa
+*.log
+*.jou
+*.str
+
+# Lab2: Vitis workspace and IP-edit project (sources are in step1-3/ and ip_repo/fpadd_ip_1.0/)
+Lab2_Arm/workspace/
+Lab2_Arm/.metadata/
+Lab2_Arm/Packages/
+Lab2_Arm/ip_repo/edit_fpadd_ip_v1_0.*
